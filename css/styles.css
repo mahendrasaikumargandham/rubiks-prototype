@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+body {
+    background: radial-gradient(rbg(0, 80, 178), #000000);
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 550px;
+    background-color: #0c002b;
+    color: #fff;
+    margin-left: 35%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.logo {
+    margin-left: 15%;
+}
+
+.box {
+    margin: 10px;
+    width: 90%;
+}
+
+.box input {
+    width: 92%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+
+.box button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 7%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.box button a {
+    text-decoration: none;
+}
+.box h2 {
+    text-align: center;
+}
+.box p {
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    margin: 40%;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.text-box {
+    margin: 10px;
+}
+
+.text-box input {
+    width: 92%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+
+.text-box a {
+    text-decoration: none;
+    color: #fff;
+    margin: 40%;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.fingerprint img {
+    position: relative;
+    width: 150px;
+    margin-left: 23%;
+}
+
+.register img {
+    margin-left: 15%;
+}
+
+.register a {
+    text-decoration: none;
+    color: #fff;
+    margin: 34%;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    margin-top: 100%;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.content img {
+    position: relative;
+    width: 250px;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.content a {
+    padding: 10px 10px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.public h2 {
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.public p {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: blue;
+}
+
+
+.public .buttons button {
+    padding: 5px;
+    position: relative;
+    width: 80%;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.public .buttons a {
+    /* position: relative; */
+    width: 80%;
+    margin-left: 45%;
+    padding-top: 20%;
+    border-radius: 20px;
+    /* border: 1px solid #fff; */
+    color: #fff;
+    text-decoration: none;
+}
+
+.classes a {
+    position: relative;
+    display: flex;
+    width: 90%;
+    background-color: #fff;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.create a {
+    font-size: 50px;
+    float: right;
+    position: relative;
+    margin-top: 75%;
+    margin-right: 10%;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.create-box {
+    margin-left: 15px;
+}
+
+.create-box h2 {
+    text-align: center;
+}
+
+.create-box input {
+    width: 88%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+
+.create-box a {
+    font-size: 20px;
+    /* position: relative; */
+    margin-left: 30%;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.request {
+    padding-top: 20px;
+    margin: 20px;
+}
+.request a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.codes {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.codes li {
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    padding: 10px;
+    width: 70%;
+}
+
+.codes a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar img {
+    width: 130px;
+    margin: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: -20px;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 20px;
+    width: 22%;
+    height: 60px;
+    background: rgb(0, 80, 178);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 25px;
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+
+.blurr {
+    position: fixed;
+    width: 23%;
+    top: 100px;
+    background: #0c002b;
+}
+
+.blurr .option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blurr .option a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.main-area {
+    background-color: lightgray;
+}
+
+.sending {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 100px;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    /* overflow: hidden; */
+    display: flex;  
+}
+
+.sending input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.messages {
+    background: purple;
+    display: inline-block;
+    margin: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.messages p {
+    font-size: 10px;
+}
+.messages h3 {
+    font-size: 15px;
+}
+
+.heading_box {
+    padding-top: 10%;
+    border: 1px solid #fff;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 15%;
+}
+
+.heading_box .atags {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading_box .atags a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
